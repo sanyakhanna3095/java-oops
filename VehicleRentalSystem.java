@@ -103,7 +103,7 @@ public class VehicleRentalSystem {
         Scanner sc = new Scanner(System.in);
         List<Vehicle> vehicles = new ArrayList<>();
 
-        // Adding a Car
+        // Add a Car
         System.out.print("Enter Car Number: ");
         String carNumber = sc.nextLine();
         System.out.print("Enter Car Rental Rate per Day: ");
@@ -112,7 +112,7 @@ public class VehicleRentalSystem {
         Car car = new Car(carNumber, carRate);
         vehicles.add(car);
 
-        // Adding a Bike
+        // Add a Bike
         System.out.print("\nEnter Bike Number: ");
         String bikeNumber = sc.nextLine();
         System.out.print("Enter Bike Rental Rate per Day: ");
@@ -121,7 +121,7 @@ public class VehicleRentalSystem {
         Bike bike = new Bike(bikeNumber, bikeRate);
         vehicles.add(bike);
 
-        // Adding a Truck
+        // Add a Truck
         System.out.print("\nEnter Truck Number: ");
         String truckNumber = sc.nextLine();
         System.out.print("Enter Truck Rental Rate per Day: ");
